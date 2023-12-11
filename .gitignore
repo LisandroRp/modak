@@ -60,7 +60,7 @@ yarn-error.log
 *.jsbundle
 
 # Ruby / CocoaPods
-/ios/Pods/
+ios/Pods/
 /vendor/bundle/
 
 # Temporary files created by Metro to check the health of the file watcher
@@ -69,5 +69,9 @@ yarn-error.log
 # testing
 /coverage
 
-# dependencies
+# Dependency directories
 node_modules/
+ios/Pods/
+ios/Podfile.lock
+android/build/
+android/app/build/
